@@ -26,6 +26,13 @@ const Portfolio = () => {
             techStack: [<FaReact key="react" className="tech-react" size="40px" />, <FaCss3Alt key="css" className="tech-css" size="40px" />, <IoLogoFirebase key="firebase" className="tech-firebase" size="40px" />, <SiRedux key="redux" className="tech-redux" size="40px" />],
             img: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ecomm.jpg-fcq6qfmURtwflqAmpJya9hKcF2gdq9.jpeg"
         },
+        {
+            id: 4,
+            title: "Portfolio page",
+            desc: "This is that page",
+            techStack: [<FaReact key="react" className="tech-react" size="40px" />, <FaCss3Alt key="css" className="tech-css" size="40px" />],
+            img: "/portfolio.jpg"
+        },
     ]
 
     return (

@@ -23,7 +23,7 @@ const About = () => {
                                 <IoIosArrowForward size={"20px"} className="aboutIcon" /> <strong> Birthday </strong> : 16.04.2002
                             </div>
                             <div>
-                                <IoIosArrowForward size={"20px"} className="aboutIcon" /> <strong> Website </strong> : www.thisone.com
+                                <IoIosArrowForward size={"20px"} className="aboutIcon" /> <strong> Website </strong> : <a href="https://portfolio-teal-one-27.vercel.app/">www.It'sThisOne.com</a>
                             </div>
                         </div>
                         <div className="line">

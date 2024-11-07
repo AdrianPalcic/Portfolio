@@ -317,6 +317,10 @@ a.active .sidebarIcon {
   font-size: 16px;
 }
 
+.about a {
+  color: black;
+}
+
 .aboutContent {
   display: flex;
   flex-wrap: wrap;
@@ -494,10 +498,13 @@ a.active .sidebarIcon {
 
 .projectContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   padding: 20px;
   margin-top: 10px;
   flex-wrap: wrap;
+  gap: 20px;
+  width: 90%;
+  margin-left: calc(100% - 90%);
 }
 
 .projectCard {
@@ -818,6 +825,13 @@ a.active .sidebarIcon {
 
   .aboutme {
     margin-top: 20px;
+  }
+}
+
+@media (max-width:1150px) {
+  .projectContainer {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
