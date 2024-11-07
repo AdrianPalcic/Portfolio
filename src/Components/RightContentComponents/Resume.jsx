@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa'
 const Resume = () => {
 
     const handleDownload = () => {
-        const pdfURL = 'public/CV_ENG.pdf';
+        const pdfURL = '/CV_ENG.pdf';
 
         const link = document.createElement('a');
         link.href = pdfURL;

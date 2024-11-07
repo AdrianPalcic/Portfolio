@@ -8,10 +8,6 @@ import { SiRedux } from "react-icons/si"
 const Portfolio = () => {
 
 
-    const comein = '/Comein.jpg';
-    const instaclone = '/Insta clone.jpg';
-    const ecomm = '/ecomm.jpg'
-
     const projects = [
         {
             id: 1,
