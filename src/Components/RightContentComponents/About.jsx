@@ -1,7 +1,9 @@
 import { IoIosArrowForward } from "react-icons/io";
-import profilePic from '../../../public/profile-pice.jpg'
 
 const About = () => {
+
+    const profilePic = '/profile-pice.jpg'
+
     return (
         <div className="about content" id="about">
             <h1>About</h1>

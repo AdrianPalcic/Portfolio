@@ -2,12 +2,15 @@ import { FaCss3Alt, FaReact } from "react-icons/fa"
 import ProjectCard from "../projectCard/ProjectCard"
 import { IoLogoFirebase } from "react-icons/io5"
 import { SiRedux } from "react-icons/si"
-import comein from '../../../public/Comein.jpg';
-import instaclone from '../../../public/Insta clone.jpg';
-import ecomm from '../../../public/ecomm.jpg';
+
 
 
 const Portfolio = () => {
+
+
+    const comein = '/Comein.jpg';
+    const instaclone = '/Insta clone.jpg';
+    const ecomm = '/ecomm.jpg'
 
     const projects = [
         {
