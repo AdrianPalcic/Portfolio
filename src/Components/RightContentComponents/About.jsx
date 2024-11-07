@@ -1,5 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
-import profilePic from './.././../../public/profile-pice.jpg'
+import profilePic from '../../../public/profile-pice.jpg'
 
 const About = () => {
     return (
