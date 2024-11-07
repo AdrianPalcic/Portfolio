@@ -29,7 +29,7 @@ const AnimatedComponent = ({ children }) => {
     }, []);
 
     return (
-        <div ref={ref} style={{ opacity: 0 }}> {/* Container remains invisible */}
+        <div ref={ref}> {/* Outer container is visible */}
             <div
                 className={`animate__animated ${isVisible ? 'animate__fadeInUp' : ''}`}
                 style={{ opacity: isVisible ? 1 : 0 }} // Fade effect for children
