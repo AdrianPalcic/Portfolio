@@ -21,7 +21,7 @@ const Portfolio = () => {
             title: "Instagram Clone",
             desc: "Instagram clone app. It's main functionallity was to teach me fullstack development using Firebase",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <IoLogoFirebase className="tech-firebase" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: '/Insta clone.jpg',
+            img: '/Instaclone.jpg',
         },
         {
             id: 3,

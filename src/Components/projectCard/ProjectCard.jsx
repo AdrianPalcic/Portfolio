@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
     return (
         <div className="projectCard">
             <h3>{project.title}</h3>
-            <img className="projectImg" src={project.img} />
+            <img className="projectImg" src={`./${project.img}`} />
             <p>{project.desc}</p>
             <div className="secondUnderline"></div>
             <div className="techStack">
