@@ -1,6 +1,6 @@
 import SocialIcons from "./SidebarComponents/SocialIcons"
 import SidebarContent from "./SidebarComponents/SidebarContent"
-const Sidebar = () => {
+const Sidebar = ({ visible }) => {
 
 
     return (
