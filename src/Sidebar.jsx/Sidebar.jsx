@@ -4,7 +4,7 @@ const Sidebar = () => {
 
 
     return (
-        <div className='sidebarContainer'>
+        <div className={visible ? "sidebarContainer visible" : "sidebarContainer"}>
             <div className="avatar">
                 <img className="sidebarpic" src="/profile-pice.jpg" />
             </div>
