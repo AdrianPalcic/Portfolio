@@ -18,21 +18,21 @@ const Portfolio = () => {
             title: "Virtual Caffe",
             desc: "A virtual caffe app used to keep track of tables and their orders. Simplifies work by removing the need to memorize orders. ",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: comein,
+            img: '/Comein.jpg',
         },
         {
             id: 2,
             title: "Instagram Clone",
             desc: "Instagram clone app. It's main functionallity was to teach me fullstack development using Firebase",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <IoLogoFirebase className="tech-firebase" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: instaclone,
+            img: '/Insta clone.jpg',
         },
         {
             id: 3,
             title: "E-commerce website",
             desc: "Classic E-commerce website with a focus on good design, responsive design, SEO optimization and user authentication",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <IoLogoFirebase className="tech-firebase" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: ecomm,
+            img: '/ecomm.jpg',
         },
     ]
 
