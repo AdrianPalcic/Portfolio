@@ -2,6 +2,10 @@ import { FaCss3Alt, FaReact } from "react-icons/fa"
 import ProjectCard from "../projectCard/ProjectCard"
 import { IoLogoFirebase } from "react-icons/io5"
 import { SiRedux } from "react-icons/si"
+import comein from './.././../../public/Comein.jpg';
+import instaclone from './.././../../public/Insta clone.jpg';
+import ecomm from './.././../../public/ecomm.jpg';
+
 
 const Portfolio = () => {
 
@@ -11,21 +15,21 @@ const Portfolio = () => {
             title: "Virtual Caffe",
             desc: "A virtual caffe app used to keep track of tables and their orders. Simplifies work by removing the need to memorize orders. ",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: "public/Comein.JPG"
+            img: comein,
         },
         {
             id: 2,
             title: "Instagram Clone",
             desc: "Instagram clone app. It's main functionallity was to teach me fullstack development using Firebase",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <IoLogoFirebase className="tech-firebase" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: "public/Insta clone.JPG",
+            img: instaclone,
         },
         {
             id: 3,
             title: "E-commerce website",
             desc: "Classic E-commerce website with a focus on good design, responsive design, SEO optimization and user authentication",
             techStack: [<FaReact className="tech-react" size="40px" />, <FaCss3Alt className="tech-css" size="40px" />, <IoLogoFirebase className="tech-firebase" size="40px" />, <SiRedux className="tech-redux" size="40px" />],
-            img: "public/ecomm.JPG"
+            img: ecomm,
         },
     ]
 

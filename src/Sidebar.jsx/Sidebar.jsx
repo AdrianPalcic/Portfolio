@@ -1,13 +1,13 @@
-import SocialIcons from "../Components/SidebarComponents/SocialIcons"
-import SidebarContent from "../Components/SidebarComponents/SidebarContent"
-
-const Sidebar = ({ visible }) => {
+import SocialIcons from "./SidebarComponents/SocialIcons"
+import SidebarContent from "./SidebarComponents/SidebarContent"
+import profilePic from '.././../public/profile-pice.jpg'
+const Sidebar = () => {
 
 
     return (
-        <div className={visible ? "sidebarContainer visible" : "sidebarContainer"}>
+        <div className='sidebarContainer'>
             <div className="avatar">
-                <img className="sidebarpic" src="public\profile-pice.jpg" />
+                <img className="sidebarpic" src={profilePic} />
             </div>
             <p className="name-text">Adrian Palčić</p>
             <SocialIcons />
